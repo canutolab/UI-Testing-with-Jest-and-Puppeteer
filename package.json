@@ -4,7 +4,8 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --verbose",
+    "jest": "jest --verbose --watch",
     "build": "webpack",
     "watch": "npm run build -- --watch"
   },
@@ -22,6 +23,7 @@
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "babel-loader": "^8.0.5",
+    "jest": "^24.7.1",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.1"
   }
