@@ -1,0 +1,28 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canutolab/testing.git"
+  },
+  "author": "Luis Suarez <canutolab@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canutolab/testing/issues"
+  },
+  "homepage": "https://github.com/canutolab/testing#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  }
+}
