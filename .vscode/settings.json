@@ -3,6 +3,10 @@
         {
             "name": "feature/webpack_config",
             "base": "develop"
+        },
+        {
+            "name": "feature/jest_config",
+            "base": "develop"
         }
     ]
 }
